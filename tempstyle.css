@@ -64,13 +64,16 @@ body {
 
 .home_centre {
     display: inline-block;
-    max-width: 60%;
+    max-width: 70%;
     text-align: center;
 }
 
 .home_centre img {
-    max-width: 90%;
+    align-self: center;
+    width: 55vw;
     margin-top: 5%;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 .home_right {
