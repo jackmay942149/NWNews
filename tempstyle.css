@@ -70,6 +70,7 @@ body {
     margin-right: 20%;
     padding-top: 1vh;
     padding-bottom: 1vh;
+    text-align: center;
 }
 
 .left_article a {
@@ -98,10 +99,11 @@ body {
 .home_centre p {
     background-color: black;
     color: white;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 1vh;
     padding-bottom: 1vh;
+    text-align: center;
 }
 
 .home_centre a {
@@ -127,6 +129,7 @@ body {
 
 .footer {
     background-color: gold;
+    margin-top: 1vh;
 }
 
 .footer p {
@@ -134,6 +137,8 @@ body {
     padding-top: 5vh;
     padding-bottom: 5vh;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .article_row {
