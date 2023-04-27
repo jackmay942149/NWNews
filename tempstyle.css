@@ -135,3 +135,26 @@ body {
     padding-bottom: 5vh;
     text-align: center;
 }
+
+.article_row {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.article_row img {
+    max-width: 25vw;
+    padding: 20px;
+}
+
+.article_row h2,p {
+    text-align: left;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 0px;
+    max-width: 25vw;
+}
+
+.article_listed {
+    display: inline-block;
+    vertical-align: top;
+}
