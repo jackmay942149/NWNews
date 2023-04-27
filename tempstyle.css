@@ -146,12 +146,26 @@ body {
     padding: 20px;
 }
 
-.article_row h2,p {
+.article_row h2, p{
     text-align: left;
     padding: 10px;
     padding-left: 20px;
     margin: 0px;
     max-width: 25vw;
+}
+
+.article_row a p {
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: black;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.article_row a {
+    text-decoration: none;
 }
 
 .article_listed {
