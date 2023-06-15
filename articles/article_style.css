@@ -1,3 +1,6 @@
+@font-face { font-family: DIN_Condensed; src: url(../fonts/DIN_Condensed/DINCondensed-Light.ttf); } 
+
+
 body {
     margin: 0px;
 }
@@ -9,7 +12,7 @@ body {
 
 .header img {
     display: block;
-    width: 10%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -27,7 +30,8 @@ body {
 }
 
 .navbar li {
-    font-size: 20px;
+    font-family: DIN_Condensed, sans-serif;
+    font-size: 30px;
     color: black;
     display: inline-block;
     padding: 1%;
@@ -37,14 +41,23 @@ body {
     text-align: center;
 }
 
+.article h1 {
+    font-family: DIN_Condensed, sans-serif;
+    font-size: 40px;
+}
+
 .article img {
-    max-width: 60vw;
+    width: 60vw;
 }
 
 .article_text {
     text-align: left;
     padding-left: 20vw;
     padding-right: 20vw;
+}
+
+.article_text h4, p {
+    font-size: 20px;
 }
 
 .footer {
@@ -59,4 +72,6 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: DIN_Condensed, sans-serif;
+    font-size: 30px;
 }
